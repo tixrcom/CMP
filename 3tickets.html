@@ -11,7 +11,7 @@
             top: 0;
             position: fixed;
             width: 100%;
-            height:100%;
+            height: 100%;
             margin: 0;
             overflow: hidden;
             transition: 1s;
@@ -33,17 +33,18 @@
                 top: 40px;
                 text-align: center;
                 left: 290px;
-                font-size: 32px;
+                font-size: 28px;
                 cursor: pointer;
                 z-index: 20;
                 /* width: 60px; */
                 /* height: 10px; */
-                padding: 0 8px;
+                padding: 0 4px;
                 max-height: fit-content;
                 border-radius: 20%;
                 text-decoration: none;
                 color: white;
                 background-color: hsl(0, 5%, 10%);
+                transform: translateY(20px);
         }
         .contain-2{
            right: 4px;
@@ -258,6 +259,8 @@
 
 </style>
 
+<link rel="stylesheet" href="./Compress-fontawesome-free-6.7.2-web/css/all.min.css">
+
 </head>
 <body>
 
@@ -268,7 +271,8 @@
 
     </div>
 
-			<a href="tickets.html" class="close">&times;</a>
+			<!-- <a href="tickets.html" class="close">&times;</a> -->
+			<a href="tickets.html" class="close"><i class="fa fa-close"></i></a>
 
     <div class="container">
 
@@ -286,7 +290,7 @@
             <div class="page slide-1">
                 <div class="logo">
                     <imgg src="splash2.pngg" class="splash"/>
-                    <h2 class="month"> </h2> 
+                    <h2 class="month"> </h2>
                     <h4 class="date"> </h4>    
                 </div>
                 <img src="Tview.jpeg" class="img"></img>
